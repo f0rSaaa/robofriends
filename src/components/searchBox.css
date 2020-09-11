@@ -1,0 +1,31 @@
+
+.searchTerm{
+    outline: none;
+    width: 30%;
+    height: 45px;
+}
+
+
+.transparent {
+  font-size: 20px;
+  background-color: Transparent;
+  border: none;
+  border-radius: 100px;
+  border-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: rgba(255,255,255,1);
+  padding: 10px 30px 10px 30px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255,255,255,0.3);
+  text-decoration-color: rgba(255,255,255,0.6);
+}
+
+input:focus {
+  /* color: rgba(255,255,255,0.7); */
+  color: rgba(255, 255, 255, 0.5);
+}

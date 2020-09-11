@@ -1,0 +1,11 @@
+@font-face {
+    font-family: androidFont;
+    src: url(./android/Android.ttf);
+}
+
+h1 {
+    font-family: androidFont;
+    font-weight: 100;
+    font-size: 60px;
+    color: rgba(255,255,255,0.6);
+}
