@@ -1,6 +1,8 @@
 /* Let's get this party started */
 ::-webkit-scrollbar {
     width: 12px;
+    position: fixed;
+    right: auto;
 }
  
 /* Track */
@@ -19,4 +21,19 @@
 }
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: rgba(2, 41, 99, 0.13); 
+}
+
+
+
+@media only screen and (max-width: 600px){
+/* Hide scrollbar for Chrome, Safari and Opera */
+    .hidden::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .hidden {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
 }

@@ -32,7 +32,7 @@ class App extends React.Component {
         }) 
         return !robots.length ?
             <h1 className="tc">Loading...</h1> :
-            <div className="tc">
+            <div className="tc container">
                 <h1>Robofriends</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <Scroll>

@@ -1,7 +1,15 @@
 
+
+@media only screen and (max-width: 600px){
+  .searchTerm{
+    position: relative;
+    left: 26px;
+  }
+}
+
 .searchTerm{
     outline: none;
-    width: 30%;
+    width: 405px;
     height: 45px;
 }
 
